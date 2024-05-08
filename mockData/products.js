@@ -1,7 +1,7 @@
 export default [
   {
     id: 0,
-    img: "",
+    img: "clip.png",
     name: "Carinber Set",
     price: 12,
     isLimited: false,
@@ -9,7 +9,7 @@ export default [
   },
   {
     id: 1,
-    img: "",
+    img: "jaq bag.png ",
     name: "Jaq Bag",
     price: 32,
     isLimited: false,

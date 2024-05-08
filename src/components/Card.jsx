@@ -40,6 +40,9 @@ export default function Card({
             />
           </div>
         </top>
+        <div className="flex justify-center w-full h-64 items-center object-contain object-center">
+          <img src={img && img} className="h-64" />
+        </div>
       </div>
       <div className="flex justify-between px-2">
         <div>
