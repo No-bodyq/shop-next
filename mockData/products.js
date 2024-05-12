@@ -6,6 +6,7 @@ export default [
     price: 12,
     isLimited: false,
     liked: true,
+    rating: 4,
   },
   {
     id: 1,
@@ -14,14 +15,16 @@ export default [
     price: 32,
     isLimited: false,
     liked: false,
+    rating: 5,
   },
   {
     id: 2,
-    img: "",
-    name: "Nanga Sandal",
+    img: "nike-shoe.png",
+    name: "Nike Shoe",
     price: 89,
     isLimited: true,
     liked: false,
+    rating: 3,
   },
   {
     id: 3,
@@ -30,6 +33,7 @@ export default [
     price: 13,
     isLimited: false,
     liked: false,
+    rating: 5,
   },
   {
     id: 4,
@@ -38,6 +42,7 @@ export default [
     price: 120,
     isLimited: false,
     liked: false,
+    rating: 2,
   },
   {
     id: 5,
@@ -46,6 +51,7 @@ export default [
     price: 49,
     isLimited: true,
     liked: true,
+    rating: 4,
   },
   {
     id: 6,
@@ -54,6 +60,7 @@ export default [
     price: 139,
     isLimited: false,
     liked: false,
+    rating: 4,
   },
   {
     id: 7,
@@ -62,5 +69,6 @@ export default [
     price: 29,
     isLimited: false,
     liked: false,
+    rating: 3,
   },
 ];

@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "./Modal";
 
 export default function Card({
   id,
@@ -8,6 +9,7 @@ export default function Card({
   isLimited,
   liked,
   handleLike,
+  rating,
 }) {
   const heart = "heart.svg";
   const redHeart = "red-heart.svg";
@@ -41,7 +43,10 @@ export default function Card({
           </div>
         </top>
         <div className="flex justify-center w-full h-64 items-center object-contain object-center">
-          <img src={img && img} className="h-64" />
+          <img
+            src={img && img}
+            className="h-60 flex justify-center items-center relative bottom-8"
+          />
         </div>
       </div>
       <div className="flex justify-between px-2">
@@ -50,7 +55,12 @@ export default function Card({
           <p className="font-bold">${price.toFixed(2)}</p>
         </div>
         <div>
-          <img src="black-bag.svg" className="w-6 h-6 cursor-pointer" />
+          <Modal
+            img={img && img}
+            name={name}
+            price={price}
+            itemRating={rating}
+          />
         </div>
       </div>
     </div>
